@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>弹性盒</title>
+		<style type="text/css">
+			#box{
+				display: flex;
+				text-align: center;
+				height: 300px;
+				width: 100%;
+			  align-items: center;
+				justify-content: center;
+				
+			}
+			#box p{
+		         flex: 1;
+				background: #CCCCCC;
+			}
+			/*#box p:not(:first-child){
+				flex-basis: 33.3%;
+				flex-grow: 1;
+			}
+		#box p:nth-child(3){
+			flex-shrink: 2;
+			background: yellow;
+		}*/
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<p>aaaa</p>
+			<p>的发发是是发发发发发 发是是是的发发是是发发发发发 发是是是的发发是是发发发发发 发是是是的发发是是发发发发发 发是是是</p>
+			<p>cccc</p>
+			<p>dddd</p>
+			<p>eeeee</p>
+		</div>
+	</body>
+</html>
+<!--当flex 1 宽度同时存在的时候 flex 1 起作用
+
+flex-grow:如何分配余下的空间 
+flex-basis:如何各项的基准的总和大于余下的空间,就会根据这个基准时行分配
+
+
+flex-shrink: 2; 如果空间不足的话,压缩比
+
+
+align-items 这个参数是侧轴对齐方式
+
+justify-content 主轴的对齐方式
+
+align-self 项止的对方方式
+
+flex-wrap 是否换行-->
