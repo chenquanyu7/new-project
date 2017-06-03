@@ -37,9 +37,9 @@
 				background: red;
 				width: 100%;
 				height: 100%;
-				display: flex;
+			overflow: auto;
 				
-				flex-direction: column;
+				
 			}
 			
 			footer{
@@ -49,15 +49,8 @@
 				background: yellow;
 			}
 			
-			#scoor{
-				width: 100%;
-				height:100%;
-				overflow: auto;
-			}
-			#scoor ul{
-				width: 100%;
-				height:100%;
-			}
+		
+			
 		</style>
 	</head>
 	<body>
@@ -72,9 +65,8 @@
 				</div>
 				<span class="glyphicon glyphicon-qrcode"></span>
 			</header>
-		<section>
-		  <div id="scoor">
-		  	<div>
+		<section id="scoor">
+		 
 			   	<ul>
 				<li>abcd1</li>
 				<li>abcd2</li>
@@ -137,8 +129,7 @@
 				<li>abc29</li>
 				<li>abc30</li>
 			</ul>
-			</div>
-			   </div>
+			
 				
 		</section>
 		<footer></footer>
@@ -147,5 +138,6 @@
 	
 </html>
 <script type="text/javascript">
-var t=new IScroll("#scoor");
+var a=new IScroll("#scoor");
+
 </script>
