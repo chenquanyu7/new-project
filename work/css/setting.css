@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size:0.8rem;
+	color: #a8a8a8;
+	    font-family: arial;
+	
+}
+a{
+	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
+	color: #000000;
+}
+ul{
+ list-style: none;	
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+
+.setting_box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+   background: rgba(0,0,0,.5);
+    color: #ffffff;
+    background: url(../img/x1.jpg)no-repeat center center;
+    background-size: 100% 100%;
+   
+		
+}
+.setting_box>header{
+	width: 100%;
+	height:2.5rem;
+	display:flex;
+	align-items: center;
+	border-bottom: 1px solid #d3d3d3;
+}
+.setting_box>header>a{
+	color: #ffffff;
+	flex: 1;
+	
+} 
+.setting_box>header>a:nth-child(1)>i{
+	margin-left: 10px;
+}
+
+ .setting_box>header>a:nth-child(2){
+ 	text-align: center;
+ 	
+ }
+ section{
+ 	width: 100%;
+ 	height: 100%;
+  }
+.section_one{
+	width: 100%;
+	
+	border-bottom: 1px solid #b9b8b8;
+    padding: 0 0.7rem;
+	
+}
+.section_one>p{
+	width: 100%;
+	
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 2rem;
+	
+	
+}
+.section_one>p>a{
+	color:#a8a8a8;
+	
+}
+.section_one>p:nth-child(1)>a{
+	font-size: 0.7rem;
+	color: #FFFFFF;
+	
+}
+
+.section_two{
+	
+	width: 100%;
+	padding: 0 0.7rem;
+	border-bottom: 1px solid #b9b8b8;
+}
+.section_two>p{
+	width: 100%;
+	height:1.7rem;
+	line-height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section_two>p>a{
+	color:#a8a8a8;
+}
+.section_two>p:nth-child(1)>a{
+	font-size:0.7rem;
+	color: #FFFFFF;
+}
+.kuaiguai{
+	display: inline-block;
+	width:1.7rem;
+	height:0.8rem;
+	 background-color: rgb(76, 175, 80);
+	border-radius: 1rem;
+	position: relative;
+}
+.yuan{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	 background-color: rgb(255, 255, 255);
+}
+.section_three{
+	width: 100%;
+	padding:0 0.7rem;
+	
+}
+.section_three>p{
+	width: 100%;
+	line-height:2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.section_three>p>a{
+	color:#a8a8a8 ;
+}
+.section_three>p:nth-child(1)>a{
+	font-size: 0.7rem;
+	color: #FFFFFF;
+}
+footer{
+	width: 100%;
+	height: 2.5rem;
+	background: #0c0807;
+}
